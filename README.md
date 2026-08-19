@@ -16,7 +16,10 @@ I use AI-assisted engineering as leverage for research, implementation and docum
 
 ## Public Work
 
-Public-safe engineering case studies and a current .NET reference project are in preparation. Most of my professional delivery work is in private Azure DevOps repositories.
+- [Engineering Notes](https://github.com/mmaric27/engineering-notes) - General guidance on safe data migrations, negative-caching diagnostics and TFVC-to-Git modernization.
+- A current .NET reference project focused on testing, observability and Azure application delivery is planned.
+
+Most of my professional delivery work remains in private Azure DevOps repositories.
 
 ## Connect
 
