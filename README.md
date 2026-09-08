@@ -16,8 +16,8 @@ I use AI-assisted engineering as leverage for research, implementation and docum
 
 ## Public Work
 
+- [Integration Ops](https://github.com/mmaric27/integration-ops) - Idempotent request intake and durable background processing in .NET and PostgreSQL, with a React operator view.
 - [Engineering Notes](https://github.com/mmaric27/engineering-notes) - General guidance on safe data migrations, negative-caching diagnostics and TFVC-to-Git modernization.
-- A current .NET reference project focused on testing, observability and Azure application delivery is planned.
 
 Most of my professional delivery work remains in private Azure DevOps repositories.
 
