@@ -8,6 +8,7 @@ I use AI-assisted engineering as leverage for research, implementation and docum
 
 ## Current Focus
 
+- AI-assisted engineering workflows and reliable context continuity across tools and sessions
 - Safe SQL and data migration patterns
 - Legacy application modernization
 - Technical discovery and architecture decisions
