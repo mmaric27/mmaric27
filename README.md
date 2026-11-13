@@ -1,22 +1,24 @@
 # Marko Marić
 
-Senior Software Engineer and hands-on Solution Architect with 30+ years of experience building, evolving and diagnosing business-critical software.
+**Backend Engineer | Systems Design & Integrations**
 
-My strongest areas are SQL Server, data modelling and migration, C#/.NET backend systems, enterprise integrations, legacy modernization and production root-cause analysis. I am particularly interested in problems that cross business processes, application code, data, integrations and operations.
+I build and evolve business-critical backend systems, integrations and data solutions. My foundation is SQL, relational data modelling, business logic and systems analysis, combined with practical solution architecture and production problem solving.
+
+I have worked across different languages and database systems throughout my career. I learn the technology the problem requires, build on transferable engineering principles and validate the result rather than treating one stack as the boundary of my work.
 
 ## Current Focus
 
-- Safe SQL and data migration patterns
-- Backend and integration reliability
-- Legacy application modernization
-- Technical discovery and architecture trade-offs
-- Production root-cause analysis
-- AI-assisted engineering workflows, secure developer-tool integration and regression-tested reliability
+- Backend systems and enterprise integrations
+- Relational data modelling, business logic and safe data migrations
+- Systems analysis and practical solution architecture
+- Reliability, production diagnostics and root-cause analysis
+- Incremental modernization of long-lived applications
+- Accountable AI-assisted engineering, workflow controls and evaluation
 
 ## Selected Public Work
 
 - [Integration Ops](https://github.com/mmaric27/integration-ops) - Personal reference implementation of idempotent request intake and durable background processing with .NET 10, PostgreSQL and React. Includes leases, bounded retries, recovery, integration tests and ADRs.
-- [Engineering Notes](https://github.com/mmaric27/engineering-notes) - Public, sanitized guidance on restartable data migrations, negative-caching diagnostics and TFVC-to-Git modernization.
+- [Engineering Notes](https://github.com/mmaric27/engineering-notes) - Practical guidance on data migrations, reliability, source-control modernization and integration architecture. Includes [Protocol-neutral capability layers for AI channels](https://github.com/mmaric27/engineering-notes/blob/main/architecture/protocol-neutral-capability-layers-for-ai-channels.md).
 
 Integration Ops is a personal reference project, not employer or client production delivery. Most of my professional delivery work remains in private repositories.
 
@@ -31,8 +33,10 @@ All four contributions were merged and include targeted regression tests. They d
 
 ## Working Approach
 
-I use AI-assisted engineering as supervised leverage for research, implementation and documentation. I remain responsible for problem definition, architecture, review, testing, validation, security and outcomes.
+I use AI as leverage, not as a substitute for engineering judgment. I define the problem, direct the work, review changes and verify results.
+
+My approach combines hands-on implementation with clear technical decisions, explicit assumptions, testing and operational safeguards. I remain responsible for architecture, validation, security and outcomes.
 
 ## Connect
 
-- [LinkedIn](https://www.linkedin.com/in/mark-om42)
+- [LinkedIn](https://www.linkedin.com/in/mark-om42/)
