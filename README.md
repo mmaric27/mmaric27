@@ -1,6 +1,6 @@
 # Marko Marić
 
-**Senior Backend Engineer | Data Modelling, Integrations & Reliability**
+**Senior Backend Engineer | Solution Design, Data Modelling & Enterprise Integrations**
 
 I work on business-critical systems where the data model, the integration contract and the behaviour in production all have to agree. Most of that work is in private repositories. Here are a few public examples you can inspect.
 
