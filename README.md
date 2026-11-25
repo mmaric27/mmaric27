@@ -1,42 +1,28 @@
 # Marko Marić
 
-**Backend Engineer | Systems Design & Integrations**
+**Senior Backend Engineer | Data Modelling, Integrations & Reliability**
 
-I build and evolve business-critical backend systems, integrations and data solutions. My foundation is SQL, relational data modelling, business logic and systems analysis, combined with practical solution architecture and production problem solving.
+I work on business-critical systems where the data model, the integration contract and the behaviour in production all have to agree. Most of that work is in private repositories. Here are a few public examples you can inspect.
 
-I have worked across different languages and database systems throughout my career. I learn the technology the problem requires, build on transferable engineering principles and validate the result rather than treating one stack as the boundary of my work.
+### [Integration Ops](https://github.com/mmaric27/integration-ops)
 
-## Current Focus
+What should happen when the same request arrives twice, or a worker stops halfway through a job?
 
-- Backend systems and enterprise integrations
-- Relational data modelling, business logic and safe data migrations
-- Systems analysis and practical solution architecture
-- Reliability, production diagnostics and root-cause analysis
-- Incremental modernization of long-lived applications
-- Accountable AI-assisted engineering, workflow controls and evaluation
+Integration Ops is my personal reference implementation of idempotent request intake and durable background processing in .NET and PostgreSQL, with a React UI. The code, integration tests and architecture decision records show how leases, bounded retries and recovery fit together.
 
-## Selected Public Work
+### [Engineering Notes](https://github.com/mmaric27/engineering-notes)
 
-- [Integration Ops](https://github.com/mmaric27/integration-ops) - Personal reference implementation of idempotent request intake and durable background processing with .NET 10, PostgreSQL and React. Includes leases, bounded retries, recovery, integration tests and ADRs.
-- [Engineering Notes](https://github.com/mmaric27/engineering-notes) - Practical guidance on data migrations, reliability, source-control modernization and integration architecture. Includes [Protocol-neutral capability layers for AI channels](https://github.com/mmaric27/engineering-notes/blob/main/architecture/protocol-neutral-capability-layers-for-ai-channels.md).
+Short technical notes on safe SQL migrations, production diagnostics, source-control modernization and integration design. For an example that connects architecture with AI tooling, start with [Protocol-neutral capability layers for AI channels](https://github.com/mmaric27/engineering-notes/blob/main/architecture/protocol-neutral-capability-layers-for-ai-channels.md).
 
-Integration Ops is a personal reference project, not employer or client production delivery. Most of my professional delivery work remains in private repositories.
+### Open-source fixes
 
-## Selected Open-Source Contributions
+Four merged fixes in AI developer tooling, each with a regression test:
 
-- [Acode AI Agent PR #4](https://github.com/Acode-Foundation/acode-ai-agent/pull/4) - Made serialized credential mutations cancellation-aware while preserving queue ordering and completion semantics.
-- [Acode AI Agent Plugin PR #8](https://github.com/hallofcodes/acode-ai-agent-plugin/pull/8) - Preserved Ollama NDJSON records across arbitrary network chunk boundaries.
-- [Acode AI Agent Plugin PR #9](https://github.com/hallofcodes/acode-ai-agent-plugin/pull/9) - Prevented further tool dispatch after cancellation across asynchronous stream and tool boundaries.
-- [Acode AI Agent Plugin PR #10](https://github.com/hallofcodes/acode-ai-agent-plugin/pull/10) - Corrected streaming behavior when the optional AbortSignal is absent.
-
-All four contributions were merged and include targeted regression tests. They demonstrate implementation and reliability work in AI developer tooling, not production ownership of an LLM platform.
-
-## Working Approach
+- [Acode AI Agent #4](https://github.com/Acode-Foundation/acode-ai-agent/pull/4): Made queued credential changes respect cancellation without breaking their execution order.
+- [Acode AI Agent Plugin #8](https://github.com/hallofcodes/acode-ai-agent-plugin/pull/8): Fixed an Ollama streaming bug where a network chunk could split a single NDJSON record.
+- [Acode AI Agent Plugin #9](https://github.com/hallofcodes/acode-ai-agent-plugin/pull/9): Stopped new tools from being dispatched after cancellation.
+- [Acode AI Agent Plugin #10](https://github.com/hallofcodes/acode-ai-agent-plugin/pull/10): Fixed streaming when the caller does not supply an `AbortSignal`.
 
 I use AI as leverage, not as a substitute for engineering judgment. I define the problem, direct the work, review changes and verify results.
 
-My approach combines hands-on implementation with clear technical decisions, explicit assumptions, testing and operational safeguards. I remain responsible for architecture, validation, security and outcomes.
-
-## Connect
-
-- [LinkedIn](https://www.linkedin.com/in/mark-om42/)
+[LinkedIn](https://www.linkedin.com/in/mark-om42/)
