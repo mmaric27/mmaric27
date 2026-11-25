@@ -12,7 +12,7 @@ Integration Ops is my personal reference implementation of idempotent request in
 
 ### [Engineering Notes](https://github.com/mmaric27/engineering-notes)
 
-Short technical notes on safe SQL migrations, production diagnostics, source-control modernization and integration design. For an example that connects architecture with AI tooling, start with [Protocol-neutral capability layers for AI channels](https://github.com/mmaric27/engineering-notes/blob/main/architecture/protocol-neutral-capability-layers-for-ai-channels.md).
+Short technical notes on safe SQL migrations, production diagnostics, source-control modernization and integration design. For an example that connects architecture with AI tooling, start with [Protocol-neutral capability layers for AI channels](https://github.com/mmaric27/engineering-notes/blob/main/architecture/protocol-neutral-capability-layers-for-ai-channels.md). For a team leadership example, see [How I approach team wellbeing and development](https://github.com/mmaric27/engineering-notes/blob/main/team-leadership/team-wellbeing-and-development.md).
 
 ### Open-source fixes
 
