@@ -27,6 +27,6 @@ I use AI as leverage, not as a substitute for engineering judgment. I define the
 
 ### [Watch Faces](https://github.com/mmaric27/watch-faces)
 
-The public storefront and support site for two Wear OS apps I sell on Google Play as *mark.om*. **Lento** shows the whole day with one hand; **Lento Classic** uses three. The apps’ source code is private. [Compare the two watch faces](https://mmaric27.github.io/watch-faces/).
+The public storefront and support site for two Wear OS apps available on Google Play. [Compare the two watch faces](https://mmaric27.github.io/watch-faces/).
 
 [LinkedIn](https://www.linkedin.com/in/mark-om42/)
